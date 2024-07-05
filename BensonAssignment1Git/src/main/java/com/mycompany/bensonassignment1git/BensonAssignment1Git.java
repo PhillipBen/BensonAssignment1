@@ -49,8 +49,12 @@ public class BensonAssignment1Git {
                 case 4 -> {
                 }
                 case 5 -> {
+                    System.out.println("Enter a name to search:");
+                    PD.SearchDatabase(0, scnr.nextLine());
                 }
                 case 6 -> {
+                    System.out.println("Enter a age to search:");
+                    PD.SearchDatabase(1, scnr.nextLine());
                 }
                 default -> {
                 }
